@@ -12,8 +12,6 @@ class Solution:
             print("第{}次：{}".format(i+1, ans))
             candies -= i + 1  # candies = candies - (i + 1)
             i += 1
-            # ans[i % num_people] += candies
-            # print("结果：{}".format(ans))
         ans[i % num_people] += candies
         print("结果：{}".format(ans))
 
