@@ -42,7 +42,7 @@ class Solution:
             stack = stack_next
             # 看来橘子们还没凉透，来，给橘子们续一秒，哦不，续一分钟
             minute += 1
-            print(minute)
+            print("{}分钟".format(minute)) # print(minute)
 
         # 经过传染，审查，隔离的循环后，如果还有好橘子幸存，返回-1宣布胜利，否则返回橘子们的存活时间
         return -1 if ['survive' for y in range(m) for x in range(n) if grid[y][x] == 1] else minute
