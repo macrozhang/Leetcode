@@ -13,3 +13,4 @@ class Solution:
 
 test = Solution()
 test.difference(23)
+ 
