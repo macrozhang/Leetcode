@@ -1,4 +1,4 @@
-# 994.腐烂的橘子
+# 994. 腐烂的橘子
 from typing import List
 
 
