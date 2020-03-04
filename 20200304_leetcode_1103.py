@@ -20,3 +20,4 @@ class Solution:
 
 test = Solution()
 test.distributeCandies(10, 3)
+ 
