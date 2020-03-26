@@ -19,6 +19,9 @@ class Solution(object):
 test = Solution()
 test.hasGroupsSizeX([1, 1, 2, 2, 2, 2])
 
+# N % X == 0         N列表总数 X为每组中的数
+# COUNT_i % x == 0    数字 i 的牌，有 COUNT_i张牌
+
 
 # all()如果iterable中的所有项目都为true，则该函数返回True，否则返回False。
 #
