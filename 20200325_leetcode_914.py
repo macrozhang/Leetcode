@@ -27,3 +27,4 @@ test.hasGroupsSizeX([1, 1, 2, 2, 2, 2])
 #
 # 如果可迭代对象为空，则该all() 函数还返回True。
 
+
