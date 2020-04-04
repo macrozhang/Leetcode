@@ -105,3 +105,4 @@ cache.put(4, 4)                 # 去除 key 1
 print(cache.get(1))             # 返回 -1 (未找到 key 1)
 print(cache.get(3))             # 返回 3
 print(cache.get(4))             # 返回 4
+
