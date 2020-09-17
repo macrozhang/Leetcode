@@ -20,7 +20,7 @@ def count_primes_py(n):
         if isPrime[i]:
             isPrime[i * i:n:i] = [0] * ((n - 1 - i * i) // i + 1)
             # //地板除:除法不管操作数为何种数值类型，总是会舍去小数部分，返回数字序列中比真正的商小的最接近的数字
-            # 注意闭区间
+            # 注意开区间
     print("isPrime:", isPrime)
     # print(list(enumerate(isPrime)))
     for i, x in enumerate(isPrime):
